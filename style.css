@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap&#39;');
+
+body {
+    font-family: 'roboto', sans-serif;
+    /* background-image: linear-gradient(#000000, #1f1f1f);
+     */
+    background-image: url("https://raw.githubusercontent.com/SorbetLover/alloyshit/refs/heads/main/images/drawers.png");
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    
+    animation: slideright 200s infinite linear;
+    -webkit-animation: slideright 200s infinite linear;
+}
+@keyframes slideright {
+    from {
+        background-position: -1000%;
+    }
+    to {
+        background-position: 0%;
+    }
+}
+@-webkit-keyframes slideright{
+    from {
+        background-position: -1000%;
+    }
+    to {
+        background-position: 0%;
+    }  
+}
+#bpsta {
+    color: #ffffff;
+}
+.carrd {
+    background-color: #05040498;
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 50px rgb(163, 42, 255);
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: auto;
+}
+
+#pfp {
+    width: 30%;
+    border-radius: 100%;
+}
+
+.links {
+    height: 200px;
+    left: 25%;
+    width: 50%;
+    padding: 0px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #7a678d2b;
+    border-radius: 30px;
+}
+
+#link {
+    color: #ffffff;
+    top: 14px;
+    position: relative;
+}
+
+.buttoun {
+    background-color: #05040498;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 25%;
+    padding: 0px;
+    text-align: center;
+    border-radius: 30px;
+    height: 50px;
+}
