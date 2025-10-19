@@ -36,29 +36,29 @@ body {
 }
 .carrd {
     background-color: #05040498;
-    width: 40%;
+    width: 50vw;
+    height: 90%;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 10px 50px rgb(163, 42, 255);
     transition: transform 0.3s, box-shadow 0.3s;
-    height: auto;
 }
 
 #pfp {
-    width: 30%;
+    width: 160px;
     border-radius: 100%;
 }
 
 .links {
     height: 200px;
-    left: 25%;
-    width: 50%;
+    left: 10%;
+    width: 80%;
     padding: 0px;
     position: relative;
     justify-content: center;
     align-items: center;
-    background-color: #7a678d2b;
+    background-color: #ffffff00;
     border-radius: 30px;
 }
 
